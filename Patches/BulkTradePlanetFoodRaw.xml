@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Base_Neolithic_Standard"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_Category">
+                <categoryDef>PlantFoodRaw</categoryDef>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <totalPriceRange>300~500</totalPriceRange>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_Category">
+                <categoryDef>PlantFoodRaw</categoryDef>
+                <thingDefCountRange>1~1</thingDefCountRange>
+                <totalPriceRange>300~400</totalPriceRange>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_Category">
+                <categoryDef>PlantFoodRaw</categoryDef>
+                <thingDefCountRange>1~1</thingDefCountRange>
+                <totalPriceRange>400~500</totalPriceRange>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_Category">
+                <categoryDef>PlantFoodRaw</categoryDef>
+                <thingDefCountRange>1~1</thingDefCountRange>
+                <totalPriceRange>150~300</totalPriceRange>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_Category">
+                <categoryDef>PlantFoodRaw</categoryDef>
+                <thingDefCountRange>2~2</thingDefCountRange>
+                <totalPriceRange>800~1100</totalPriceRange>
+            </li>
+        </value>
+    </Operation>
+</Patch>
